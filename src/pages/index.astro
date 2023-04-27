@@ -1,0 +1,12 @@
+---
+import TestComposant from "@components/TestComposant";
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title="1">
+  <main>
+    <TestComposant props1={1} props2={2} client:visible />
+    <br />
+    <a href="/register/1">Connexion</a>
+  </main>
+</Layout>
